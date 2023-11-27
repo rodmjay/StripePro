@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{010595FE-A54C-448B-9045-D9D58B480A93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{0E2E5940-DA77-4F05-81D4-76EF2DE47F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F972B8B5-55C0-49C0-A919-8359346B352F}"
+	ProjectSection(SolutionItems) = preProject
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		..\readme.md = ..\readme.md
+		reset_db.sql = reset_db.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{EBD41554-2047-47A6-92E3-576FCF96EC0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripePro", "StripePro\StripePro.csproj", "{8E49DB2B-E068-4583-B96A-4295AA535588}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripePro.Shared", "StripePro.Shared\StripePro.Shared.csproj", "{67DCA3F5-955F-4193-BC30-BDD3FCD6F1BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E49DB2B-E068-4583-B96A-4295AA535588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E49DB2B-E068-4583-B96A-4295AA535588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E49DB2B-E068-4583-B96A-4295AA535588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E49DB2B-E068-4583-B96A-4295AA535588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DCA3F5-955F-4193-BC30-BDD3FCD6F1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DCA3F5-955F-4193-BC30-BDD3FCD6F1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DCA3F5-955F-4193-BC30-BDD3FCD6F1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DCA3F5-955F-4193-BC30-BDD3FCD6F1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E49DB2B-E068-4583-B96A-4295AA535588} = {0E2E5940-DA77-4F05-81D4-76EF2DE47F5E}
+		{67DCA3F5-955F-4193-BC30-BDD3FCD6F1BD} = {0E2E5940-DA77-4F05-81D4-76EF2DE47F5E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D3B855C-D595-4463-8A54-ECCE5633A7C3}
+	EndGlobalSection
+EndGlobal
